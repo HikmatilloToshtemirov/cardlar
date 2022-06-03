@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    padding: 20px;
+    border: 1px solid silver;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.189);
+    transition: 0.5s;
+}
+.rasm{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.rasm img{
+    width: 100%;
+}
+.card:hover{
+    transform: scale(1.05);
+}
